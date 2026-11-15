@@ -18,6 +18,12 @@
   <a href="docs/README.cs.md">Čeština</a>
 </p>
 
+<p align="center">
+  <img src="assets/bin_x64.png" height="200" alt="The plugins folder inside the game's bin\win_x64 folder">
+  &nbsp;
+  <img src="assets/plugins.png" height="200" alt="The three plugin files and the key setup tool">
+</p>
+
 ---
 
 ## What it does
