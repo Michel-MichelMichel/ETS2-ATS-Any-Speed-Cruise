@@ -9,6 +9,12 @@
 Un régulateur de vitesse qui fonctionne en dessous de 30 km/h (20 mph) dans
 **Euro Truck Simulator 2** et **American Truck Simulator**.
 
+<p align="center">
+  <img src="../assets/bin_x64.png" height="200" alt="Le dossier plugins dans bin\win_x64">
+  &nbsp;
+  <img src="../assets/plugins.png" height="200" alt="Les fichiers du plugin et l'outil de choix des touches">
+</p>
+
 ## Ce que ça fait
 
 Dans les deux jeux, « conserver » et « reprendre » ne font rien en dessous de
@@ -46,6 +52,10 @@ la mémoire ni aux fichiers du jeu.
 Pour désinstaller, supprimer les trois fichiers.
 
 ## Choisir les touches
+
+<p align="center">
+  <img src="../assets/config-tool.png" width="420" alt="Outil de choix des touches">
+</p>
 
 Dans `any_speed_cruise_config.exe`, cliquer sur **Change**, puis appuyer sur
 une touche du clavier ou un bouton de volant / manette. La valeur est

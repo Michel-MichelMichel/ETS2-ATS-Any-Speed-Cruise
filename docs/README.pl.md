@@ -9,6 +9,12 @@
 Tempomat, który działa poniżej 30 km/h (20 mph) w **Euro Truck Simulator 2**
 i **American Truck Simulator**.
 
+<p align="center">
+  <img src="../assets/bin_x64.png" height="200" alt="Folder plugins w bin\win_x64">
+  &nbsp;
+  <img src="../assets/plugins.png" height="200" alt="Pliki pluginu i narzędzie do wyboru klawiszy">
+</p>
+
 ## Co robi
 
 W obu grach „ustaw” i „wznów” nie działają poniżej 30 km/h. To realistyczne,
@@ -46,6 +52,10 @@ modyfikuje pamięci ani plików gry.
 Aby odinstalować, usuń te trzy pliki.
 
 ## Wybór klawiszy
+
+<p align="center">
+  <img src="../assets/config-tool.png" width="420" alt="Narzędzie do wyboru klawiszy">
+</p>
 
 W `any_speed_cruise_config.exe` kliknij **Change**, a potem naciśnij klawisz
 albo przycisk kierownicy / pada. Wartość zapisuje się od razu (Esc anuluje),

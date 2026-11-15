@@ -9,6 +9,12 @@
 Ein Tempomat, der auch unter 30 km/h (20 mph) funktioniert – für
 **Euro Truck Simulator 2** und **American Truck Simulator**.
 
+<p align="center">
+  <img src="../assets/bin_x64.png" height="200" alt="Der Ordner plugins in bin\win_x64">
+  &nbsp;
+  <img src="../assets/plugins.png" height="200" alt="Die Plugin-Dateien und das Tasten-Werkzeug">
+</p>
+
 ## Was es macht
 
 In beiden Spielen bewirken „Setzen“ und „Wiederaufnehmen“ unter 30 km/h
@@ -46,6 +52,10 @@ offizielle SCS SDK und verändert weder den Speicher noch Spieldateien.
 Zum Deinstallieren die drei Dateien löschen.
 
 ## Tasten festlegen
+
+<p align="center">
+  <img src="../assets/config-tool.png" width="420" alt="Werkzeug zum Festlegen der Tasten">
+</p>
 
 In `any_speed_cruise_config.exe` auf **Change** klicken und dann eine Taste
 oder einen Lenkrad-/Gamepad-Knopf drücken. Der Wert wird sofort gespeichert

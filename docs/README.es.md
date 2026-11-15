@@ -9,6 +9,12 @@
 Un control de crucero que funciona por debajo de 30 km/h (20 mph) en
 **Euro Truck Simulator 2** y **American Truck Simulator**.
 
+<p align="center">
+  <img src="../assets/bin_x64.png" height="200" alt="La carpeta plugins dentro de bin\win_x64">
+  &nbsp;
+  <img src="../assets/plugins.png" height="200" alt="Los archivos del plugin y la herramienta de teclas">
+</p>
+
 ## Qué hace
 
 En ambos juegos, «fijar» y «reanudar» no hacen nada por debajo de 30 km/h. Es
@@ -46,6 +52,10 @@ la memoria ni los archivos del juego.
 Para desinstalarlo, borra los tres archivos.
 
 ## Elegir las teclas
+
+<p align="center">
+  <img src="../assets/config-tool.png" width="420" alt="Herramienta para elegir las teclas">
+</p>
 
 En `any_speed_cruise_config.exe`, haz clic en **Change** y pulsa una tecla o
 un botón del volante / mando. El valor se guarda al instante (Esc cancela) y
