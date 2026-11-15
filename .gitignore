@@ -1,0 +1,6 @@
+# Build output and release archives (published through GitHub Releases)
+/build/
+/dist/
+
+# Downloaded SDK archive (the extracted headers are kept)
+/third_party/*.zip

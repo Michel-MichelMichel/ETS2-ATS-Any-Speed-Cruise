@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Any Speed Cruise logo: a truck speedometer cruising at 20 km/h">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2433"/>
+      <stop offset="1" stop-color="#0b0f17"/>
+    </linearGradient>
+    <radialGradient id="dial" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#232e41"/>
+      <stop offset="1" stop-color="#111722"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1024" height="1024" rx="190" fill="url(#bg)"/>
+  <circle cx="512" cy="540" r="420" fill="url(#dial)" stroke="#2c384d" stroke-width="6"/>
+
+  <!-- scale: 0-120 km/h over 240 degrees, angle = 150 + 2 * speed -->
+  <path d="M191.6 725 A370 370 0 1 1 832.4 725" fill="none" stroke="#33405a" stroke-width="22" stroke-linecap="round"/>
+  <!-- the zone the game refuses, now unlocked: 0-30 km/h -->
+  <path d="M191.6 725 A370 370 0 0 1 191.6 355" fill="none" stroke="#3ddc84" stroke-width="22" stroke-linecap="round" filter="url(#glow)"/>
+
+  <g stroke="#8d9bb5" stroke-width="5" stroke-linecap="round">
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(160 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(180 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(200 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(220 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(240 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(260 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(280 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(300 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(320 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(340 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(0 512 540)"/>
+    <line x1="842" y1="540" x2="858" y2="540" transform="rotate(20 512 540)"/>
+  </g>
+  <g stroke="#e8eef9" stroke-width="9" stroke-linecap="round">
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(150 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(170 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(190 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(210 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(230 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(250 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(270 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(290 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(310 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(330 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(350 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(10 512 540)"/>
+    <line x1="834" y1="540" x2="858" y2="540" transform="rotate(30 512 540)"/>
+  </g>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" text-anchor="middle" fill="#c9d3e6" font-size="46">
+    <text x="282" y="694">0</text>
+    <text x="329" y="338">40</text>
+    <text x="512" y="271">60</text>
+    <text x="695" y="338">80</text>
+    <text x="768" y="506">100</text>
+    <text x="728" y="694">120</text>
+    <text x="262" y="512" font-size="62" fill="#3ddc84" filter="url(#soft)">20</text>
+  </g>
+
+  <!-- cruise control symbol -->
+  <g fill="none" stroke="#3ddc84" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" transform="translate(0 12)">
+    <path d="M476.8 404.6 A46 46 0 1 1 547.2 404.6"/>
+    <line x1="512" y1="375" x2="535" y2="352"/>
+    <line x1="512" y1="280" x2="512" y2="294"/>
+    <path d="M497 294 L527 294 L512 313 Z" fill="#3ddc84"/>
+  </g>
+  <text x="512" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="30" letter-spacing="8" text-anchor="middle" fill="#3ddc84">CRUISE</text>
+
+  <!-- needle on 20 km/h -->
+  <g transform="translate(512 540) rotate(190)" filter="url(#soft)">
+    <polygon points="-58,-9 200,-3 200,3 -58,9" fill="#ff6b35"/>
+  </g>
+  <circle cx="512" cy="540" r="38" fill="#0e131c" stroke="#ff6b35" stroke-width="8"/>
+  <circle cx="512" cy="540" r="10" fill="#ff6b35"/>
+
+  <!-- digital readout -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <text x="512" y="728" font-size="124" font-weight="800" fill="#ffffff">20</text>
+    <text x="512" y="772" font-size="34" font-weight="600" fill="#8d9bb5" letter-spacing="3">km/h</text>
+  </g>
+
+  <!-- a relaxed passenger: cruising at snail speed, with style -->
+  <g transform="translate(512 884) scale(1.35) translate(-523 -883)">
+    <g stroke="#3ddc84" stroke-width="5" stroke-linecap="round" opacity="0.8">
+      <line x1="352" y1="872" x2="402" y2="872"/>
+      <line x1="336" y1="893" x2="396" y2="893"/>
+      <line x1="362" y1="914" x2="404" y2="914"/>
+    </g>
+    <path d="M420 928 C430 905 470 912 500 912 L565 912 C590 912 598 895 600 872 C601 856 624 856 624 874 C624 905 610 928 580 928 Z" fill="#f4c95d"/>
+    <g stroke="#f4c95d" stroke-width="5" stroke-linecap="round">
+      <line x1="606" y1="856" x2="600" y2="834"/>
+      <line x1="618" y1="856" x2="627" y2="834"/>
+    </g>
+    <circle cx="600" cy="832" r="5" fill="#f4c95d"/>
+    <circle cx="627" cy="832" r="5" fill="#f4c95d"/>
+    <circle cx="508" cy="878" r="42" fill="#ff6b35"/>
+    <circle cx="508" cy="878" r="26" fill="none" stroke="#b8431a" stroke-width="6"/>
+    <circle cx="508" cy="878" r="9" fill="#b8431a"/>
+    <circle cx="612" cy="868" r="16" fill="#f4c95d"/>
+    <!-- sunglasses -->
+    <rect x="603" y="860" width="30" height="13" rx="5" fill="#0b0f17"/>
+    <line x1="604" y1="865" x2="594" y2="862" stroke="#0b0f17" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
